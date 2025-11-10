@@ -1,0 +1,207 @@
+@media (max-width: 576px) {
+    #tab-visimisi .vision-mission-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .activity-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .top-bar-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-secondary ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    .nav-secondary ul li a {
+        border-right: none;
+        padding: 5px 10px;
+    }
+    
+    /* HERO SECTION */
+    .hero-content {
+        text-align: left;
+    }
+
+    .news-grid {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+
+    .hero-text {
+        max-width: 445px !important;
+    }
+
+    .fact-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fact-item {
+        margin: 15px 0;
+        border-bottom: 1px solid var(--light-bg);
+    }
+
+    .hero-content h1 {
+        font-size: 1.8em; /* Ukuran h1 paling kecil */
+    }
+    
+    .hero-content .button {
+        display: block; /* Tombol menjadi full-width */
+        margin-top: 15px;
+    }
+
+    .link-grid {
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+    .sidebar {
+        display: none;
+    }
+    
+    .main-content {
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    .accordion-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #programs {
+        padding-bottom: 35px;
+    }
+
+    .content-split-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* FOOTER */
+    .footer-content {
+        flex-direction: column !important; /* Footer kembali menjadi 1 kolom */
+        text-align: left;
+    }
+
+    .footer-bottom-bar .footer-bottom-content {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 13px;
+    }
+    
+}
+
+/* ------------------ Breakpoint 2: max-width 886px (Tablet Vertikal) ------------------ */
+@media (max-width: 886px) {
+    
+    .hero-section {
+        padding: 60px 0;
+    }
+
+    .hero-content h1 {
+        font-size: 2.2em;
+    }
+
+    .hero-content p {
+        font-size: 1em;
+    }
+
+    .featured-news-grid {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* FOOTER */
+    .footer-content {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .footer-col {
+        flex: 1 1 calc(50% - 20px); /* Footer menjadi 2 kolom */
+    }
+}
+
+@media (max-width: 992px) {
+    
+    .container {
+        padding: 0 15px; /* Kurangi padding container */
+    }
+
+    /* HEADER & NAVIGASI */
+    .main-nav-content {
+        justify-content: space-between;
+    }
+    
+    .menu-toggle {
+        display: block; /* Tampilkan tombol Hamburger */
+    }
+
+    .nav-primary {
+        /* Jadikan menu dropdown penuh */
+        position: absolute; 
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+        z-index: 999;
+    }
+    
+    .nav-primary ul {
+        flex-direction: column; /* Menu vertikal */
+        padding: 10px 20px;
+        border-top: 1px solid #ddd;
+    }
+
+    .nav-primary ul li a {
+        padding: 12px 0;
+        border-bottom: 1px solid #eee !important;
+        display: block;
+        border-bottom: none; /* Hapus border horizontal khas desktop */
+    }
+    
+    /* Sembunyikan menu utama secara default */
+    .hidden-mobile {
+        display: none !important;
+    }
+
+    /* HERO SECTION */
+
+    .hero-content h1 {
+        font-size: 2.8em; /* Kurangi ukuran teks hero */
+    }
+    
+    /* CONTENT SECTION (Misalnya, layanan unggulan) */
+    .feature-card-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .feature-card {
+        flex: 1 1 calc(50% - 20px); /* Tampilkan 2 kolom */
+        max-width: 400px;
+    }
+}

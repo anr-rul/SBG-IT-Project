@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda | Universitas Nusa Antara</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="single-page-style.css">
+    <link rel="stylesheet" href="respons.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="main-nav-bar">
+            <div class="container-header main-nav-content">
+                <div class="logo">
+                    <a href="#hero-wrapper" class="nav-reset">
+                        <!-- <img src="" alt=""> -->
+                        <h1>LOGO</h1> 
+                        <p>Universitas Nusa Antara</p>
+                    </a>
+                </div>
+                <button id="menu-toggle" class="menu-toggle">☰</button>
+
+                <nav class="nav-primary">
+                    <ul id="main-menu" class="hidden-mobile">
+                        <li><a href="#about" class="nav-scroll">About</a></li>
+                        <li><a href="#programs" class="nav-scroll">Programs</a></li>
+                        <li><a href="#news-announcements" class="nav-scroll">News & Announcements</a></li>
+                        <li><a href="#activities" class="nav-scroll">Activities</a></li>
+                        <li><a href="#contact-information" class="nav-scroll">Contact Information</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- <section class="page-title-banner" style="background-color: var(--light-bg); padding: 30px 0;">
+        <div class="container">
+            <p>Universitas Nusa Antara / Beranda</p>
+        </div>
+    </section> -->
+
+    <main>
+        <section class="hero-section" id="hero-wrapper">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Mencetak Generasi Unggul dan Berbudaya</h2>
+                    <p>Jelajahi berbagai program studi unggulan dan raih masa depan Anda bersama Universitas Nusa Antara.</p>
+                    <a href="#programs" class="button primary">Daftar Sekarang</a>
+                </div>
+                <img src="https://picsum.photos/1200/500?random=1" alt="Gedung Universitas Nusa Antara" class="hero-image">
+            </div>
+        </section>
+
+
+        <!-- ABOUT -->
+
+        
+        <section class="container about-layout" id="about">
+            <aside class="sidebar">
+                <nav>
+                    <h3>Informasi Kami</h3>
+                    <ul class="navside">
+                        <li><a href="#tab-tentang" class="tab-link item" data-tab="sejarah">Sejarah</a></li>
+                        <li><a href="#tab-visimisi" class="tab-link item" data-tab="visimisi">Visi, Misi & Tujuan</a></li>
+                    </ul>
+                </nav>
+            </aside>
+            <div class="main-content">        
+                <section id="tab-tentang" class="content-section active">
+                    <h2>Tentang Universitas Nusa Antara (UNA)</h2>
+                    <img src="https://picsum.photos/800/450?random=10" alt="Gedung Utama UNA" style="width: 100%; height: auto; margin-bottom: 20px; border-radius: 5px;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui recusandae pariatur deserunt error officiis, doloribus, magni, unde natus veniam reiciendis accusamus? Tempore neque aspernatur mollitia nam, deserunt numquam quasi illo.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam ipsam dolorem minus, doloremque dolorum laboriosam animi aut omnis, atque ab recusandae, aspernatur inventore magni fugiat error? Corporis tempora atque dolores?</p>
+                </section>
+
+                <section id="tab-sejarah" class="content-section">
+                    <h2>Sejarah</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed magni maxime quod quae iusto, beatae ipsam molestiae delectus placeat velit repellendus tempore eius ducimus aliquam tenetur qui id? Minima, necessitatibus!
+                    Accusantium porro debitis sed doloremque ut sequi, dignissimos recusandae quasi ad, doloribus aliquid nulla corporis eligendi tempora labore? Aut dicta eligendi quasi dolorum velit maiores veritatis error quidem totam praesentium?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quibusdam porro, quia repellendus iste quam quae fuga pariatur voluptatum molestiae qui, voluptatibus dolorem architecto laboriosam aperiam. Rerum perspiciatis provident quas.</p>
+                </section>
+
+                <section id="tab-visimisi" class="content-section">
+                    <h2>Visi & Misi</h2>
+                    <div class="vision-mission-grid">
+                        <div class="vision-mission-item">
+                            <h3>Visi</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit debitis quaerat necessitatibus.</p>
+                        </div>
+                        <div class="vision-mission-item">
+                            <h3>Misi</h3>
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa.</li>
+                                <li>lorem ipsum dolor sit amet consectetur adipisicing elit. Iure culpa.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </section>
+
+
+        <!-- PROGRAM STUDI -->
+
+
+        <section class="container content-section primary-bg-section" id="programs">
+            <div class="section-header white-text">
+                <h2 class="section-title">Program Studi</h2>
+                <p>Ada 7 Program Studi unggulan yang bisa Anda pilih</p>
+            </div>
+            
+            <div class="accordion-container">
+                
+                <div class="accordion-item">
+                    <button class="accordion-header" data-accordion="informatika">
+                        Informatika
+                        <span class="icon"><i class="fa-solid fa-caret-down"></i></span>
+                    </button>
+                    <div class="accordion-content" id="accordion-informatika">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta, excepturi animi, quod ratione sed labore temporibus, eum ea ex perferendis aut hic! Quidem ad veritatis repellendus consequuntur et enim..</p>
+                        <ul>
+                            <li>Periode Pendaftaran: Mei - Juli</li>
+                            <li>Persyaratan: Lulusan SMA/SMK/MA Maksimal 3 tahun terakhir.</li>
+                        </ul>
+                        <a href="javascript:void(0)" class="button secondary" style="background-color: transparent; color: #0A1172;padding: 7px 18px;border-radius: 9px;transition: .3s; cursor: default;">Detail Informasi</a>
+                        <a href="javascript:void(0)" class="button secondary" style="background-color: rgba(255, 166, 0, 0.596); color: #fff;padding: 7px 18px;border-radius: 9px;transition: .3s; border:1px solid rgba(255, 166, 0, 0.596); cursor: default;">Daftar</a>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" data-accordion="manajemen">
+                        Manajemen
+                        <span class="icon"><i class="fa-solid fa-caret-down"></i></span>
+                    </button>
+                    <div class="accordion-content" id="accordion-manajemen">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta, excepturi animi, quod ratione sed labore temporibus, eum ea ex perferendis aut hic! Quidem ad veritatis repellendus consequuntur et enim..</p>
+                        <ul>
+                            <li>Periode Pendaftaran: Mei - Juli</li>
+                            <li>Persyaratan: Lulusan SMA/SMK/MA Maksimal 3 tahun terakhir.</li>
+                        </ul>
+                        <a href="javascript:void(0)" class="button secondary" style="background-color: transparent; color: #0A1172;padding: 7px 18px;border-radius: 9px;transition: .3s; cursor: default;">Detail Informasi</a>
+                        <a href="javascript:void(0)" class="button secondary" style="background-color: rgba(255, 166, 0, 0.596); color: #fff;padding: 7px 18px;border-radius: 9px;transition: .3s; border:1px solid rgba(255, 166, 0, 0.596); cursor: default;">Daftar</a>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" data-accordion="ilmu-komunikasi">
+                        Ilmu Komunikasi
+                        <span class="icon"><i class="fa-solid fa-caret-down"></i></span>
+                    </button>
+                    <div class="accordion-content" id="accordion-ilmu-komunikasi">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta, excepturi animi, quod ratione sed labore temporibus, eum ea ex perferendis aut hic! Quidem ad veritatis repellendus consequuntur et enim..</p>
+                        <ul>
+                            <li>Periode Pendaftaran: Mei - Juli</li>
+                            <li>Persyaratan: Lulusan SMA/SMK/MA Maksimal 3 tahun terakhir.</li>
+                        </ul>
+                        <a href="javascript:void(0)" class="button secondary" style="background-color: transparent; color: #0A1172;padding: 7px 18px;border-radius: 9px;transition: .3s; cursor: default;">Detail Informasi</a>
+                        <a href="javascript:void(0)" class="button secondary" style="background-color: rgba(255, 166, 0, 0.596); color: #fff;padding: 7px 18px;border-radius: 9px;transition: .3s; border:1px solid rgba(255, 166, 0, 0.596); cursor: default;">Daftar</a>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" data-accordion="teknik-sipil">
+                        Teknik Sipil
+                        <span class="icon"><i class="fa-solid fa-caret-down"></i></span>
+                    </button>
+                    <div class="accordion-content" id="accordion-teknik-sipil">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta, excepturi animi, quod ratione sed labore temporibus, eum ea ex perferendis aut hic! Quidem ad veritatis repellendus consequuntur et enim..</p>
+                        <ul>
+                            <li>Periode Pendaftaran: Mei - Juli</li>
+                            <li>Persyaratan: Lulusan SMA/SMK/MA Maksimal 3 tahun terakhir.</li>
+                        </ul>
+                        <a href="javascript:void(0)" class="button secondary" style="background-color: transparent; color: #0A1172;padding: 7px 18px;border-radius: 9px;transition: .3s; cursor: default;">Detail Informasi</a>
+                        <a href="javascript:void(0)" class="button secondary" style="background-color: rgba(255, 166, 0, 0.596); color: #fff;padding: 7px 18px;border-radius: 9px;transition: .3s; border:1px solid rgba(255, 166, 0, 0.596); cursor: default;">Daftar</a>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" data-accordion="kedokteran">
+                        Kedokteran
+                        <span class="icon"><i class="fa-solid fa-caret-down"></i></span>
+                    </button>
+                    <div class="accordion-content" id="accordion-kedokteran">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta, excepturi animi, quod ratione sed labore temporibus, eum ea ex perferendis aut hic! Quidem ad veritatis repellendus consequuntur et enim..</p>
+                        <ul>
+                            <li>Periode Pendaftaran: Mei - Juli</li>
+                            <li>Persyaratan: Lulusan SMA/SMK/MA Maksimal 3 tahun terakhir.</li>
+                        </ul>
+                        <a href="javascript:void(0)" class="button secondary" style="background-color: transparent; color: #0A1172;padding: 7px 18px;border-radius: 9px;transition: .3s; cursor: default;">Detail Informasi</a>
+                        <a href="javascript:void(0)" class="button secondary" style="background-color: rgba(255, 166, 0, 0.596); color: #fff;padding: 7px 18px;border-radius: 9px;transition: .3s; border:1px solid rgba(255, 166, 0, 0.596); cursor: default;">Daftar</a>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" data-accordion="desain-komunikasi-visual">
+                        Desain Komunikasi Visual
+                        <span class="icon"><i class="fa-solid fa-caret-down"></i></span>
+                    </button>
+                    <div class="accordion-content" id="accordion-desain-komunikasi-visual">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta, excepturi animi, quod ratione sed labore temporibus, eum ea ex perferendis aut hic! Quidem ad veritatis repellendus consequuntur et enim..</p>
+                        <ul>
+                            <li>Periode Pendaftaran: Mei - Juli</li>
+                            <li>Persyaratan: Lulusan SMA/SMK/MA Maksimal 3 tahun terakhir.</li>
+                        </ul>
+                        <a href="javascript:void(0)" class="button secondary" style="background-color: transparent; color: #0A1172;padding: 7px 18px;border-radius: 9px;transition: .3s; cursor: default;">Detail Informasi</a>
+                        <a href="javascript:void(0)" class="button secondary" style="background-color: rgba(255, 166, 0, 0.596); color: #fff;padding: 7px 18px;border-radius: 9px;transition: .3s; border:1px solid rgba(255, 166, 0, 0.596); cursor: default;">Daftar</a>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header" data-accordion="hubungan-internasional">
+                        Hubungan Internasional
+                        <span class="icon"><i class="fa-solid fa-caret-down"></i></span>
+                    </button>
+                    <div class="accordion-content" id="accordion-hubungan-internasional">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error soluta, excepturi animi, quod ratione sed labore temporibus, eum ea ex perferendis aut hic! Quidem ad veritatis repellendus consequuntur et enim..</p>
+                        <ul>
+                            <li>Periode Pendaftaran: Mei - Juli</li>
+                            <li>Persyaratan: Lulusan SMA/SMK/MA Maksimal 3 tahun terakhir.</li>
+                        </ul>
+                        <a href="javascript:void(0)" class="button secondary" style="background-color: transparent; color: #0A1172;padding: 7px 18px;border-radius: 9px;transition: .3s; cursor: default;">Detail Informasi</a>
+                        <a href="javascript:void(0)" class="button secondary" style="background-color: rgba(255, 166, 0, 0.596); color: #fff;padding: 7px 18px;border-radius: 9px;transition: .3s; border:1px solid rgba(255, 166, 0, 0.596); cursor: default;">Daftar</a>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </section>
+
+
+        <!-- ACARA & BERITA -->
+
+        <section class="news-section" id="news-announcements">
+            <section class="container content-section">
+                <div class="section-header">
+                    <h2 class="section-title">News</h2>
+                </div>
+                <div class="featured-news-grid">
+                
+                    <a href="javascript:void(0)" class="featured-main-card">
+                        <img src="https://picsum.photos/800/500?random=40" alt="Penemuan Riset UNA" class="news-image">
+                        <div class="news-content-box">
+                            <span class="news-category">Riset & Inovasi</span>
+                            <h3>UNA Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+                            <p class="news-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae omnis iste dignissimos et est tenetur itaque? Eos voluptas exercitationem suscipit dicta eligendi vero voluptatum dolorum eaque minima? Quaerat, nulla quo.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima accusamus temporibus, eum quam repudiandae repellat quidem, nobis ratione consequatur ad optio eos quia quas commodi cupiditate quos asperiores numquam repellendus?
+                            </p>
+                            <span class="news-date">29 September 2025</span>
+                        </div>
+                    </a>
+
+                    <div class="featured-side-cards">
+                        
+                        <a href="javascript:void(0)" class="news-side-card">
+                            <img src="https://picsum.photos/300/200?random=41" alt="Mahasiswa Berprestasi" class="news-image-small">
+                            <div class="news-content-small">
+                                <span class="news-category">Prestasi</span>
+                                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                                <span class="news-date">25 September 2025</span>
+                            </div>
+                        </a>
+
+                        <a href="javascript:void(0)" class="news-side-card">
+                            <img src="https://picsum.photos/300/200?random=42" alt="Kunjungan Rektor" class="news-image-small">
+                            <div class="news-content-small">
+                                <span class="news-category">Kampus</span>
+                                <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+                                <span class="news-date">20 September 2025</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container news-filter">
+                <div class="news-tags-container">
+                    <button class="news-tag active" data-filter="Rekomendasi">Rekomendasi</button>
+                    <button class="news-tag" data-filter="Akademik">Akademik</button>
+                    <button class="news-tag" data-filter="Kegiatan Mahasiswa">Kegiatan Mahasiswa</button>
+                    <button class="news-tag" data-filter="Institusional">Institusional</button>
+                    <button class="news-tag" data-filter="Event">Event</button>
+                    <button class="news-tag" data-filter="Reset & Inovasi">Reset & Inovasi</button>
+                </div>
+                <div class="news-grid">
+            
+                    <div class="news-card" data-category="Kompetisi">
+                        <img src="https://picsum.photos/300/200?random=71" alt="Lomba Coding" class="news-thumb">
+                        <div class="card-content">
+                            <h3>Pendaftaran Lomba Coding Nasional UNA 2026</h3>
+                            <p>Ayo daftarkan tim Anda dan menangkan total hadiah puluhan juta rupiah. Pendaftaran ditutup 25 November.</p>
+                            <div class="card-meta">
+                                <span>15 Nov 2025</span>
+                                <span>Gedung Serbaguna</span>
+                            </div>
+                            <a href="javascript:void(0)" class="button button-small secondary">Baca Selengkapnya...</a>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-category="Non-Akademik">
+                        <img src="https://picsum.photos/300/200?random=72" alt="Bakti Sosial" class="news-thumb">
+                        <div class="card-content">
+                            <h3>Bakti Sosial Mahasiswa Peduli Lingkungan</h3>
+                            <p>Kegiatan bersih-bersih dan penanaman 1000 pohon di kawasan Desa Sukamaju oleh BEM UNA.</p>
+                            <div class="card-meta">
+                                <span>22 Nov 2025</span>
+                                <span>Desa Sukamaju</span>
+                            </div>
+                            <a href="javascript:void(0)" class="button button-small secondary">Baca Selengkapnya...</a>
+                        </div>
+                    </div>
+
+                    <div class="news-card" data-category="Akademik">
+                        <img src="https://picsum.photos/300/200?random=73" alt="Kuliah Umum" class="news-thumb">
+                        <div class="card-content">
+                            <h3>Kuliah Umum: Tren Teknologi Blockchain</h3>
+                            <p>Wajib bagi mahasiswa Fakultas Teknik. Dibawakan oleh Dr. Alexius dari MIT. Sertifikat tersedia.</p>
+                            <div class="card-meta">
+                                <span>27 Nov 2025</span>
+                                <span>Auditorium Utama</span>
+                            </div>
+                            <a href="javascript:void(0)" class="button button-small secondary">Baca Selengkapnya...</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="container content-section primary-bg-section">
+                <div class="content-split-grid">
+                    
+                    <div class="news-list-column">
+                        <h2 class="column-title">Berita Terbaru</h2>
+                        
+                        <a href="javascript:void(0)" class="list-news-item">
+                            <img src="https://picsum.photos/100/70?random=43" alt="Pengabdian Masyarakat" class="list-news-thumb">
+                            <div class="list-news-info">
+                                <span class="list-news-date">18 September 2025</span>
+                                <p class="list-news-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, quos.</p>
+                            </div>
+                        </a>
+
+                        <a href="javascript:void(0)" class="list-news-item">
+                            <img src="https://picsum.photos/100/70?random=44" alt="Seminar Nasional" class="list-news-thumb">
+                            <div class="list-news-info">
+                                <span class="list-news-date">15 September 2025</span>
+                                <p class="list-news-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, quos.</p>
+                            </div>
+                        </a>
+                        
+                        <a href="javascript:void(0)" class="list-news-item">
+                            <img src="https://picsum.photos/100/70?random=45" alt="Kerja Sama Industri" class="list-news-thumb">
+                            <div class="list-news-info">
+                                <span class="list-news-date">10 September 2025</span>
+                                <p class="list-news-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, quos.</p>
+                            </div>
+                        </a>
+                        
+                        <a href="javascript:void(0)" class="button view-all-button">Lihat Semua Berita</a>
+                    </div>
+
+                    <div class="event-list-column">
+                        <h2 class="column-title">Acara Mendatang</h2>
+                        
+                        <div class="event-item">
+                            <div class="event-date-box">
+                                <span class="month">NOV</span>
+                                <span class="day">10</span>
+                            </div>
+                            <div class="event-info">
+                                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, quos.</h4>
+                                <p><i class="fa-solid fa-building"></i> Aula Grha Antara | <i class="fa-solid fa-clock"></i> 09.00 - 12.00 WIB</p>
+                                <a href="javascript:void(0)" class="event-detail-link">Detail Acara</a>
+                            </div>
+                        </div>
+
+                        <div class="event-item">
+                            <div class="event-date-box">
+                                <span class="month">NOV</span>
+                                <span class="day">25</span>
+                            </div>
+                            <div class="event-info">
+                                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, quos.</h4>
+                                <p><i class="fa-solid fa-building"></i> Gedung FK UNA | <i class="fa-solid fa-clock"></i> 13.00 - 16.00 WIB</p>
+                                <a href="javascript:void(0)" class="event-detail-link">Detail Acara</a>
+                            </div>
+                        </div>
+
+                        <div class="event-item">
+                            <div class="event-date-box">
+                                <span class="month">DES</span>
+                                <span class="day">05</span>
+                            </div>
+                            <div class="event-info">
+                                <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, quos.</h4>
+                                <p><i class="fa-solid fa-building"></i> GOR Kampus Utama | <i class="fa-solid fa-clock"></i> 08.00 WIB</p>
+                                <a href="javascript:void(0)" class="event-detail-link">Detail Acara</a>
+                            </div>
+                        </div>
+                        
+                        <a href="javascript:void(0)" class="button view-all-button secondary">Lihat Kalender Acara</a>
+                    </div>
+                    
+                </div>
+            </section>
+        </section>
+
+
+        <!-- ACTIVITIES SECTION -->
+
+
+        <section class="container content-section" id="activities">
+            <div class="activities-filter-section">
+                <div class="section-header">
+                    <h2 class="section-title">Activities Gallery</h2>
+                    <!-- <div class="news-tags-container">
+                        <button class="news-tag active" data-filter="Akademik">Akademik</button>
+                        <button class="news-tag" data-filter="Non-Akademik">Non-Akademik</button>
+                        <button class="news-tag" data-filter="Mahasiswa">Kegiatan Mahasiswa</button>
+                        <button class="news-tag" data-filter="Keagamaan">Kegiatan Keagamaan</button>
+                        <button class="news-tag" data-filter="Event">Event</button>
+                        <button class="news-tag" data-filter="Kompetisi">Kompetisi & Lomba</button>
+                    </div> -->
+                </div>
+            </div>
+            <div class="activity-grid">
+            
+                <div class="activity-card" data-category="Kompetisi">
+                    <img src="https://picsum.photos/300/200?random=81" alt="Lomba Coding" class="activity-thumb">
+                    <div class="card-content">
+                        <span class="activity-tag-label tag-primary">Kompetisi</span>
+                        <h3>Pendaftaran Lomba Coding Nasional UNA 2026</h3>
+                        <p>Ayo daftarkan tim Anda dan menangkan total hadiah puluhan juta rupiah. Pendaftaran ditutup 25 November.</p>
+                        <div class="card-meta">
+                            <span>15 Nov 2025</span>
+                            <span>Gedung Serbaguna</span>
+                        </div>
+                        <a href="javascript:void(0)" class="button button-small secondary">Detail Lomba</a>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="Non-Akademik">
+                    <img src="https://picsum.photos/300/200?random=82" alt="Bakti Sosial" class="activity-thumb">
+                    <div class="card-content">
+                        <span class="activity-tag-label tag-secondary">Non-Akademik</span>
+                        <h3>Bakti Sosial Mahasiswa Peduli Lingkungan</h3>
+                        <p>Kegiatan bersih-bersih dan penanaman 1000 pohon di kawasan Desa Sukamaju oleh BEM UNA.</p>
+                        <div class="card-meta">
+                            <span>22 Nov 2025</span>
+                            <span>Desa Sukamaju</span>
+                        </div>
+                        <a href="javascript:void(0)" class="button button-small secondary">Lihat Foto</a>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="Akademik">
+                    <img src="https://picsum.photos/300/200?random=83" alt="Kuliah Umum" class="activity-thumb">
+                    <div class="card-content">
+                        <span class="activity-tag-label tag-secondary">Akademik</span>
+                        <h3>Kuliah Umum: Tren Teknologi Blockchain</h3>
+                        <p>Wajib bagi mahasiswa Fakultas Teknik. Dibawakan oleh Dr. Alexius dari MIT. Sertifikat tersedia.</p>
+                        <div class="card-meta">
+                            <span>27 Nov 2025</span>
+                            <span>Auditorium Utama</span>
+                        </div>
+                        <a href="javascript:void(0)" class="button button-small secondary">Daftar Kehadiran</a>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="Keagamaan">
+                    <img src="https://picsum.photos/300/200?random=84" alt="Pengajian Akbar" class="activity-thumb">
+                    <div class="card-content">
+                        <span class="activity-tag-label tag-secondary">Keagamaan</span>
+                        <h3>Tabligh Akbar Peringatan Maulid Nabi</h3>
+                        <p>Acara bersama Unit Kegiatan Mahasiswa Islam. Terbuka untuk seluruh civitas akademika UNA.</p>
+                        <div class="card-meta">
+                            <span>01 Des 2025</span>
+                            <span>Masjid Kampus</span>
+                        </div>
+                        <a href="javascript:void(0)" class="button button-small secondary">Informasi Selengkapnya</a>
+                    </div>
+                </div>
+
+                <div class="activity-card" data-category="Event">
+                    <img src="https://picsum.photos/300/200?random=75" alt="Pameran Seni" class="activity-thumb">
+                    <div class="card-content">
+                        <span class="activity-tag-label tag-secondary">Event</span>
+                        <h3>Art & Science Expo 2025 UNA</h3>
+                        <p>Pameran gabungan karya seni dan inovasi teknologi dari seluruh fakultas di UNA.</p>
+                        <div class="card-meta">
+                            <span>05 Des 2025</span>
+                            <span>Lapangan Tengah</span>
+                        </div>
+                        <a href="javascript:void(0)" class="button button-small secondary">Jadwal Pameran</a>
+                    </div>
+                </div>
+                
+                <div class="activity-card gallery-card" data-category="Galeri">
+                    <div class="card-content">
+                        <div class="gallery-icon"><i class="fa-solid fa-photo-film"></i></div>
+                        <h3>Galeri Dokumentasi Kampus</h3>
+                        <p>Lihat semua foto dan video dari kegiatan kampus tahun ini.</p>
+                        <a href="javascript:void(0)" class="button primary large-button">Kunjungi Galeri</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT INFORMATION -->
+
+
+        <section class="container content-section" id="contact-information">
+            <section class="page-title-banner contact-banner">
+                <div class="container">
+                    <div class="section-header">
+                        <h1>Get in Touch</h1>
+                    </div>
+                    <p>Kami siap membantu pertanyaan Anda terkait pendaftaran, akademik, dan informasi umum kampus.</p>
+                </div>
+            </section>
+            <div class="contact-grid">
+                
+                <div class="contact-details-column">
+                    <h2 class="section-title">Informasi Kontak Utama</h2>
+                    <div class="contact-info-list">
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon address-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="contact-text">
+                                <h4>Alamat Kampus</h4>
+                                <p>Jl. Pendidikan No. 123, Kampus Induk, Kota Antara, 15310 Indonesia</p>
+                                <a href="javascript:void(0)" class="action-link primary">Lihat Rute di Peta</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon phone-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="contact-text">
+                                <h4>Nomor Kontak Utama</h4>
+                                <p>Pendaftaran: (021) 1234 567 (ext. 101)</p>
+                                <p>Informasi Umum: (021) 1234 567 (ext. 102)</p>
+                                <a href="tel:+62211234567" class="action-link secondary">Telepon Sekarang</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon email-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="contact-text">
+                                <h4>Email Resmi</h4>
+                                <p>Informasi & Kerjasama: info@una.ac.id</p>
+                                <p>Pendaftaran: admisi@una.ac.id</p>
+                                <a href="mailto:info@una.ac.id" class="action-link primary">Kirim Email</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="map-form-column">
+                    
+                    <h2 class="section-title">Lokasi Kampus Utama</h2>
+                    <div class="map-container">
+                        
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1980.4576030037254!2d107.622714!3d-6.900744!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e64ccaafebbd%3A0x9e53739bff7334f6!2sMuseum%20Geologi%20Bandung!5e0!3m2!1sid!2sid!4v1762307491794!5m2!1sid!2sid" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy"
+                            aria-label="Lokasi Universitas Nusa Antara di peta.">
+                        </iframe>
+                    </div>
+                    
+                    <!-- <h2 class="section-title form-header">Kirim Pesan Cepat</h2>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Nama Lengkap" required>
+                        <input type="email" placeholder="Email Anda" required>
+                        <select required>
+                            <option value="" disabled selected>Topik Pertanyaan...</option>
+                            <option value="Pendaftaran">Pendaftaran Mahasiswa Baru</option>
+                            <option value="Akademik">Informasi Akademik</option>
+                            <option value="Lainnya">Informasi Umum/Lainnya</option>
+                        </select>
+                        <textarea placeholder="Tulis Pesan Anda di sini..." rows="4" required></textarea>
+                        <button type="submit" class="button primary large-button">Kirim Pesan</button>
+                    </form> -->
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER SECTION -->
+
+
+    <footer class="footer-una">
+        <div class="container footer-grid-container">
+            <div class="footer-col footer-social">
+                <h3>Ikuti Kami</h3>
+                <div class="social-icons-container">
+                    <a href="javascript:void(0)" class="social-icon facebook-icon" aria-label="Facebook UNA"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="javascript:void(0)" class="social-icon instagram-icon" aria-label="Instagram UNA"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="javascript:void(0)" class="social-icon youtube-icon" aria-label="YouTube UNA"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="javascript:void(0)" class="social-icon tiktok-icon" aria-label="TikTok UNA"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+
+                <div class="developer-credit">
+                    <p>Website Design & Development by:</p>
+                    <p class="dev-name">Ruliana</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom-bar">
+            <div class="container-footbottom footer-bottom-content">
+                <p>&copy; 2025 Universitas Nusa Antara. Hak Cipta Dilindungi.</p>
+                <nav class="footer-util-nav">
+                    <a href="javascript:void(0)">Kebijakan Privasi</a>
+                    <span class="separator">|</span>
+                    <a href="javascript:void(0)">Ketentuan Penggunaan</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
