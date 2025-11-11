@@ -54,11 +54,11 @@
     }
 
     .hero-content h1 {
-        font-size: 1.8em; /* Ukuran h1 paling kecil */
+        font-size: 1.8em;
     }
     
     .hero-content .button {
-        display: block; /* Tombol menjadi full-width */
+        display: block;
         margin-top: 15px;
     }
 
@@ -99,7 +99,7 @@
 
     /* FOOTER */
     .footer-content {
-        flex-direction: column !important; /* Footer kembali menjadi 1 kolom */
+        flex-direction: column !important;
         text-align: left;
     }
 
@@ -111,7 +111,7 @@
     
 }
 
-/* ------------------ Breakpoint 2: max-width 886px (Tablet Vertikal) ------------------ */
+/* ------------------ Breakpoint 2: max-width 886px ------------------ */
 @media (max-width: 886px) {
     
     .hero-section {
@@ -139,14 +139,14 @@
     }
     
     .footer-col {
-        flex: 1 1 calc(50% - 20px); /* Footer menjadi 2 kolom */
+        flex: 1 1 calc(50% - 20px);
     }
 }
 
 @media (max-width: 992px) {
     
     .container {
-        padding: 0 15px; /* Kurangi padding container */
+        padding: 0 15px;
     }
 
     /* HEADER & NAVIGASI */
@@ -155,11 +155,10 @@
     }
     
     .menu-toggle {
-        display: block; /* Tampilkan tombol Hamburger */
+        display: block;
     }
 
     .nav-primary {
-        /* Jadikan menu dropdown penuh */
         position: absolute; 
         top: 100%;
         left: 0;
@@ -170,7 +169,7 @@
     }
     
     .nav-primary ul {
-        flex-direction: column; /* Menu vertikal */
+        flex-direction: column;
         padding: 10px 20px;
         border-top: 1px solid #ddd;
     }
@@ -179,10 +178,9 @@
         padding: 12px 0;
         border-bottom: 1px solid #eee !important;
         display: block;
-        border-bottom: none; /* Hapus border horizontal khas desktop */
+        border-bottom: none;
     }
     
-    /* Sembunyikan menu utama secara default */
     .hidden-mobile {
         display: none !important;
     }
@@ -190,10 +188,9 @@
     /* HERO SECTION */
 
     .hero-content h1 {
-        font-size: 2.8em; /* Kurangi ukuran teks hero */
+        font-size: 2.8em;
     }
     
-    /* CONTENT SECTION (Misalnya, layanan unggulan) */
     .feature-card-container {
         flex-wrap: wrap;
         justify-content: center;
@@ -201,7 +198,7 @@
     }
     
     .feature-card {
-        flex: 1 1 calc(50% - 20px); /* Tampilkan 2 kolom */
+        flex: 1 1 calc(50% - 20px);
         max-width: 400px;
     }
 }
